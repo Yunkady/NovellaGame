@@ -6,10 +6,10 @@
 		<link rel="stylesheet" href="../assets/style.css" />
 	</head>
 	<body>
-		<header>
-			<img src="../assets/icon.jpg" alt="Иконка проекта" class="icon" />
+		<img src="../assets/icon.jpg" alt="Иконка проекта" class="header-icon" />
+		<div class="header-title">
 			<h1>Пустой Коридор</h1>
-		</header>
+		</div>
 		<nav class="topnav">
 			<a href="../chapter1/index.html">Главная</a>
 			<a href="index.html">Главная</a>
@@ -20,14 +20,6 @@
 				Коридор залит полумраком. По бокам — две двери: левая приоткрыта, правая
 				заперта.
 			</p>
-			<div class="dropdown">
-				<select onchange="location = this.value;">
-					<option value="#">— Выберите главу —</option>
-					<option value="corridor.html">Стр.2: Коридор</option>
-					<option value="left_room.html">Стр.3: Левая дверь</option>
-					<!-- добавьте остальные при необходимости -->
-				</select>
-			</div>
 			<div class="choices">
 				<a href="left_room.html" class="button">Осмотреть левую дверь</a>
 				<a href="right_room.html" class="button">Попробовать открыть правую</a>
