@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Диктофон</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="icon.png" alt="Иконка проекта" class="icon" />
+			<h1>Диктофон</h1>
+		</header>
+		<nav class="topnav">
+			<a href="index.html">Главная</a><a href="right_room.html">Назад</a
+			><a href="chapters.html">Главы</a>
+		</nav>
+		<div class="container">
+			<p>Вы нажали «PLAY». Из динамика доносится шёпот: «Помоги нам…»</p>
+			<div class="dropdown">
+				<select onchange="location = this.value;">
+					<option>— Главы —</option>
+					<option value="recorder.html">Стр.6: Диктофон</option>
+					<option value="camera_mode.html">Стр.13: Видео-режим</option>
+				</select>
+			</div>
+			<div class="choices">
+				<a href="camera_mode.html" class="button">Записать на видео</a>
+				<a href="corridor2.html" class="button">Выключить и уйти</a>
+			</div>
+		</div>
+	</body>
+</html>

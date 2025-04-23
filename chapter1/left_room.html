@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Левая Палата</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="icon.png" alt="Иконка проекта" class="icon" />
+			<h1>Левая Палата</h1>
+		</header>
+		<nav class="topnav">
+			<a href="index.html">Главная</a><a href="corridor.html">Назад</a
+			><a href="chapters.html">Главы</a>
+		</nav>
+		<div class="container">
+			<p>
+				Палата с ржавой кроватью. На стене выцарапано:
+				<em>«Их голоса слышишь?»</em>
+			</p>
+			<div class="dropdown">
+				<select onchange="location = this.value;">
+					<option>— Выберите главу —</option>
+					<option value="left_room.html">Стр.3: Левая палата</option>
+					<option value="right_room.html">Стр.4: Правая камера</option>
+				</select>
+			</div>
+			<div class="choices">
+				<a href="diary_page1.html" class="button">Прочитать надпись</a>
+				<a href="corridor2.html" class="button">Сбежать обратно</a>
+			</div>
+		</div>
+	</body>
+</html>

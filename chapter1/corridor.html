@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Коридор</title>
+		<link rel="stylesheet" href="../assets/style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="../assets/icon.jpg" alt="Иконка проекта" class="icon" />
+			<h1>Пустой Коридор</h1>
+		</header>
+		<nav class="topnav">
+			<a href="../index.html">Главная</a>
+			<a href="../chapters.html">Главы</a>
+			<a href="../rules.html">Правила</a>
+		</nav>
+		<div class="container">
+			<p>
+				Коридор залит полумраком. По бокам — две двери: левая приоткрыта, правая
+				заперта.
+			</p>
+			<div class="dropdown">
+				<select onchange="location = this.value;">
+					<option value="#">— Выберите главу —</option>
+					<option value="corridor.html">Стр.2: Коридор</option>
+					<option value="left_room.html">Стр.3: Левая дверь</option>
+					<!-- добавьте остальные при необходимости -->
+				</select>
+			</div>
+			<div class="choices">
+				<a href="left_room.html" class="button">Осмотреть левую дверь</a>
+				<a href="right_room.html" class="button">Попробовать открыть правую</a>
+			</div>
+		</div>
+	</body>
+</html>
