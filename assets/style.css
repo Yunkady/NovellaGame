@@ -295,3 +295,38 @@ body::after {
 	pointer-events: none;
 	z-index: 1;
 }
+
+/* Стили для страницы об авторах */
+.author-card {
+	background: rgba(30, 30, 30, 0.6);
+	border-radius: 6px;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-left: 3px solid rgba(255, 255, 255, 0.2);
+	transition: all 0.3s ease;
+}
+
+.author-card:hover {
+	background: rgba(40, 40, 40, 0.8);
+	transform: translateX(5px);
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.author-card h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #d0d0d0;
+	font-size: 1.3rem;
+}
+
+.group-info {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.2rem;
+	color: #c0c0c0;
+	text-align: center;
+	padding: 15px;
+	background: rgba(30, 30, 30, 0.6);
+	border-radius: 6px;
+	margin: 20px 0;
+	font-style: italic;
+}
